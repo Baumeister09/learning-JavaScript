@@ -1,0 +1,18 @@
+//jede Zeile wird mit einem Semikolon abgeschlossen
+//Variablen sind Platzhalter für Werte
+//Variablen müssen deklariert werden (mit dem Schlüsselwort "var", "let" oder "const")
+//Variablen können verschiedene Datentypen speichern (Zahlen, Strings, Booleans, Objekte, etc.)
+//Variablen können verändert werden (außer bei "const")
+
+let stadt = "Berlin"; //stadt = Variablen name, "Berlin" = Wert, let = deklaration
+
+//variablen können verändert werden mit dem Zuweisungsoperator "="
+//let, const und var werden dabei nicht wiederholt
+let land = "Deutschland";
+land = "Österreich";
+
+//Variablen können auch mit anderen Variablen kombiniert werden oder ersetzt werden
+let stadtLand = stadt + ", " + land; //Kombination von Variablen
+let name1 = "Max";
+let name2 = "Moritz";
+name1 = name2; //Ersetzung von Variablen 
