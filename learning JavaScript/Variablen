@@ -16,3 +16,29 @@ let stadtLand = stadt + ", " + land; //Kombination von Variablen
 let name1 = "Max";
 let name2 = "Moritz";
 name1 = name2; //Ersetzung von Variablen 
+
+let stadt = "Berlin";
+let ausgabe = stadt.length; //length = Eigenschaft, die die Anzahl der Zeichen in einem String zurückgibt
+console.log(ausgabe); //gibt 6 in der Konsole aus, da "Berlin" 6 Zeichen hat
+
+let stadt = "Berlin";
+let ausgabe = stadt.toUpperCase(); //toUpperCase() = Methode, die einen String in Großbuchstaben umwandelt
+console.log(ausgabe); //gibt "BERLIN" in der Konsole aus
+
+let n1 = "Maria".charAt(2); //charAt() = Methode, die das Zeichen an der angegebenen Position zurückgibt (Positionen beginnen bei 0)
+console.log(n1); //gibt "r" in der Konsole aus, da "r" an der 2. Position in "Maria" steht
+
+let name =" Rosa ";
+let n2 = name.trim(); //trim() = Methode, die Leerzeichen am Anfang und Ende eines Strings entfernt
+console.log(n2); //gibt "Rosa" in der Konsole aus, ohne die Leerzeichen
+
+let name = "Anna";
+let n3 = name.indexOf("n"); //indexOf() = Methode, die die Position des ersten Vorkommens eines Zeichens oder einer Zeichenkette zurückgibt
+console.log(n3); //gibt 1 in der Konsole aus, da "n" an der 1. Position in "Anna" steht
+let name = "Anna";
+let n4 = name.indexOf("n", 2); //zweiter Parameter gibt die Startposition für die Suche an
+console.log(n4); //gibt 2 in der Konsole aus, da "n" an der 2. Position in "Anna" steht und die Suche ab der 2. Position beginnt
+
+let name = "Alexander";
+let x = name.substring(0, 5); //substring() = Methode, die einen Teilstring zurückgibt (erster Parameter = Startposition, zweiter Parameter = Endposition)
+console.log(x); //gibt "Alexa" in der Konsole aus, da die Zeichen von Position 0 bis 4 (5-1) zurückgegeben werden
