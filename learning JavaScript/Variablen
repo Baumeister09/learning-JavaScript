@@ -88,3 +88,13 @@ let gg = Math.asinh(1); //Math.asinh() = Methode, die den inversen hyperbolische
 let hh = Math.acosh(2); //Math.acosh() = Methode, die den inversen hyperbolischen Kosinus einer Zahl berechnet
 let ii = Math.atanh(0.5); //Math.atanh() = Methode, die den inversen hyperbolischen Tangens einer Zahl berechnet
 let jj = Math.trunc(4.9); //Math.trunc() = Methode, die die Nachkommastellen einer Zahl entfernt und nur den Ganzzahlanteil zurückgibt
+
+parseInt("42"); //parseInt() = Funktion, die einen String in eine Ganzzahl (Integer) umwandelt
+parseFloat("3.14"); //parseFloat() = Funktion, die einen String in eine Gleitkommazahl (Float) umwandelt
+Number("123"); //Number() = Funktion, die einen String oder anderen Wert in eine Zahl umwandelt. Gibt NaN zurück, wenn der String keine gültige Zahl darstellt
+isNaN("abc"); //isNaN() = Funktion, die überprüft, ob ein Wert "Not-a-Number" (NaN) ist. Gibt true zurück, wenn der Wert keine gültige Zahl ist
+
+toString(123); //toString() = Methode, die eine Zahl in einen String umwandelt
+String(456); //String() = Funktion, die einen Wert in einen String umwandelt
+Boolean(1); //Boolean() = Funktion, die einen Wert in einen Boolean (true oder false) umwandelt. 0, null, undefined, NaN und "" werden zu false, alle anderen Werte zu true
+
