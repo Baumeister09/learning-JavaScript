@@ -1,4 +1,0 @@
-function digitLength(s1) {
-  let x = s1.toString();
-  return x.length;
-}
