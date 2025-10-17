@@ -155,3 +155,11 @@ let vergleich2 = (a > b); //false, da 5 nicht größer als 10 ist
 let vergleich3 = (a <= b); //true, da 5 kleiner oder gleich 10 ist
 let vergleich4 = (a >= b); //false, da 5 nicht größer oder gleich 10 ist
 
+//if-else-Anweisung, die eine Bedingung überprüft und je nach Ergebnis unterschiedlichen Code ausführt
+if(x === y) {
+    console.log("x ist gleich y");
+} else if (x > y) {
+    console.log("x ist größer als y");
+} else {
+    console.log("x ist nicht gleich y");
+}
