@@ -46,6 +46,12 @@ console.log(x); //gibt "Alexa" in der Konsole aus, da die Zeichen von Position 0
 let name = "Sophia" ;
 let y = name.replace("ph", "f"); //replace() = Methode, die ein Zeichen oder eine Zeichenkette durch ein anderes ersetzt
 
+
+/*
+Zahlen und mathematische Operationen
+*/
+
+
 let x = 6; //Zahlen (number) können mit mathematischen Operatoren (+, -, *, /, %) kombiniert werden
 let y = 3;
 let ergebnis = x + y; //Addition
@@ -98,3 +104,5 @@ toString(123); //toString() = Methode, die eine Zahl in einen String umwandelt
 String(456); //String() = Funktion, die einen Wert in einen String umwandelt
 Boolean(1); //Boolean() = Funktion, die einen Wert in einen Boolean (true oder false) umwandelt. 0, null, undefined, NaN und "" werden zu false, alle anderen Werte zu true
 
+let x = 7.25;
+let y = x.toFixed(); //toFixed() = Methode, die eine Zahl auf eine bestimmte Anzahl von Dezimalstellen rundet und als String zurückgibt (Standard ist 0 Dezimalstellen)
