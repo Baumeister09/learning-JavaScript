@@ -35,6 +35,7 @@ function logge(wert) {
 /*
 if-Anweisungen in Funktionen
 */
+
 //if-else-Anweisung, die eine Bedingung überprüft und je nach Ergebnis unterschiedlichen Code ausführt
 if(x === y) {
     console.log("x ist gleich y");
@@ -43,3 +44,63 @@ if(x === y) {
 } else {
     console.log("x ist nicht gleich y");
 }
+
+
+/*
+Switch-Anweisungen in Funktionen
+*/
+
+//Switch-Anweisung, die den Wert einer Variable überprüft und je nach Ergebnis unterschiedlichen Code ausführt
+let farbe = "rot";
+switch(farbe) {
+    case "rot":
+        console.log("Die Farbe ist rot");
+        break;
+    case "blau":
+        console.log("Die Farbe ist blau");
+        break;
+    default:
+        console.log("Die Farbe ist weder rot noch blau");
+        break;
+}
+
+/*
+Arrays
+*/
+
+//Array sind Datenstrukturen, die mehrere Werte in einer einzigen Variablen speichern können
+//Array deklarieren mit eckigen Klammern []
+let obst = ["Apfel", "Banane", "Orange"]; //Array mit drei Elementen
+
+//Auf Elemente in einem Array zugreifen mit dem Index (Position des Elements im Array, beginnt bei 0)
+let erstesObst = obst[0]; //erstesElement besitzt jetzt den Wert "Apfel"
+let zweitesObst = obst[1]; //zweitesElement besitzt jetzt den Wert "Banane"
+let drittesObst = obst[2]; //drittesElement besitzt jetzt den Wert "Orange"
+
+//Array Elemente schreiben
+obst[0] = "Mango"; //erstes Element im Array wird auf "Mango" geändert
+
+//Array length = gibt die Anzahl der Elemente im Array zurück
+let anzahlObst = obst.length; //anzahlObst besitzt jetzt den Wert 3
+
+//Arrays sortieren in aufsteigender Reihenfolge (Zahlen)
+function sortiereArray(arr) {
+    return arr.sort(function(a, b) {
+        return a - b; 
+    });
+}
+
+//Arrays sortieren Alphabetisch (Strings)
+function sortiereArrayAlphabetisch(arr) {
+    return arr.sort();
+}
+
+//Arrays sortieren der Länge nach (Strings)
+function sortiereArrayNachLaenge(arr) {
+    return arr.sort(function(a, b) {
+        return a.length - b.length; 
+    });
+}
+
+//Array Methoden
+
