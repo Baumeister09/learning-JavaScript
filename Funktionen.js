@@ -103,4 +103,14 @@ function sortiereArrayNachLaenge(arr) {
 }
 
 //Array Methoden
+function arrayMethoden(x) {
+    let x = [5, 3, 8, 1, 2];
+    let y = x.shift(); //entfernt das erste Element aus dem Array und speichert es in y
+    let z = x.pop(); //entfernt das letzte Element aus dem Array und speichert es in z
+    x.push(10); //fügt das Element 10 am Ende des Arrays hinzu
+    x.unshift(0); //fügt das Element 0 am Anfang des Arrays hinzu
+    let a = [6, 7,];
+    let b = x.concat(a); //verbindet die Arrays x und a zu einem neuen Array b
+    let c = x.slice(1, 4); //Kopiert die Elemente 1 bis 3 aud x und speichert sie in c als neues Array
+}
 
