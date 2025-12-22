@@ -112,5 +112,6 @@ function arrayMethoden(x) {
     let a = [6, 7,];
     let b = x.concat(a); //verbindet die Arrays x und a zu einem neuen Array b
     let c = x.slice(1, 4); //Kopiert die Elemente 1 bis 3 aud x und speichert sie in c als neues Array
+    let d = x.join(", "); //verbindet alle Elemente im Array zu einem String, getrennt durch ", "
 }
 
