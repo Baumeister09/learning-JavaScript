@@ -115,5 +115,6 @@ function arrayMethoden(x) {
     let d = x.join(", "); //verbindet alle Elemente im Array zu einem String, getrennt durch ", "
     let e = [[1, 2], [3, 4]]; //zweidimensionales Array
     let f = e[0][1]; //greift auf das Element in der ersten Reihe und zweiten Spalte zu (Wert 2)
+    let g = e.flat(); //wandelt zweidimensionale Arrays in ein einzelnes Array um, dabei bleibt der Inhalt erhalten
 }
 
