@@ -113,5 +113,7 @@ function arrayMethoden(x) {
     let b = x.concat(a); //verbindet die Arrays x und a zu einem neuen Array b
     let c = x.slice(1, 4); //Kopiert die Elemente 1 bis 3 aud x und speichert sie in c als neues Array
     let d = x.join(", "); //verbindet alle Elemente im Array zu einem String, getrennt durch ", "
+    let e = [[1, 2], [3, 4]]; //zweidimensionales Array
+    let f = e[0][1]; //greift auf das Element in der ersten Reihe und zweiten Spalte zu (Wert 2)
 }
 
